@@ -20,7 +20,7 @@
                 <li><a href="<?php echo SITE_URL; ?>/index.php">Publicaciones</a></li>
                 <?php if (is_logged_in()): ?>
                 <li><a href="<?php echo SITE_URL; ?>?logout=true">Cerrar Sesión</a></li>
-                <li><a href="<?php echo SITE_URL; ?>/admin">Administración</a></li>
+                <li><a href="<?php echo SITE_URL; ?>/admin/index.php">Administración</a></li>
                 <?php else: ?>
                 <li><a href="<?php echo SITE_URL; ?>/login.php">Iniciar Sesión</a></li>
                 <?php endif;?>
