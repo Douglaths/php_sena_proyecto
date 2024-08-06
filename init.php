@@ -11,3 +11,5 @@ require( 'inc/publicaciones.php');
 require ('inc/class-db.php');
 
 $app_db = new DB(DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE, DB_PORT);
+
+require (__DIR__ . '/inc/helpers.php'); 
